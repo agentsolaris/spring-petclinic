@@ -28,7 +28,7 @@ import org.springframework.samples.petclinic.model.BaseEntity;
 /**
  * Simple JavaBean domain object representing a visit.
  *
- * @author Ken Krebs
+ * @author Barbulescu Eduard
  * @author Dave Syer
  */
 @Entity

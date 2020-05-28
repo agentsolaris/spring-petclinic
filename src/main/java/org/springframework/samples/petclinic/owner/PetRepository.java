@@ -27,9 +27,9 @@ import org.springframework.transaction.annotation.Transactional;
  * Data. See:
  * https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.query-methods.query-creation
  *
- * @author Ken Krebs
- * @author Juergen Hoeller
- * @author Sam Brannen
+ * @author Barbulescu Eduard
+ * @author Luca Mihai
+ * @author Neata Romeo
  * @author Michael Isvy
  */
 public interface PetRepository extends Repository<Pet, Integer> {

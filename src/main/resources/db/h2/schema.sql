@@ -46,7 +46,6 @@ CREATE INDEX owners_last_name ON owners (last_name);
 CREATE TABLE pets (
   id         INTEGER IDENTITY PRIMARY KEY,
   name       VARCHAR(30),
-  birth_date DATE,
   type_id    INTEGER NOT NULL,
   owner_id   INTEGER NOT NULL
 );

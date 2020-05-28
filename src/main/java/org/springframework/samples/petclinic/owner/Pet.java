@@ -40,17 +40,13 @@ import org.springframework.samples.petclinic.visit.Visit;
 /**
  * Simple business object representing a pet.
  *
- * @author Ken Krebs
- * @author Juergen Hoeller
- * @author Sam Brannen
+ * @author Barbulescu Eduard
+ * @author Luca Mihai
+ * @author Neata Romeo
  */
 @Entity
 @Table(name = "pets")
 public class Pet extends NamedEntity {
-
-	@Column(name = "birth_date")
-	@DateTimeFormat(pattern = "yyyy-MM-dd")
-	private LocalDate birthDate;
 
 	@ManyToOne
 	@JoinColumn(name = "type_id")
@@ -63,13 +59,7 @@ public class Pet extends NamedEntity {
 	@Transient
 	private Set<Visit> visits = new LinkedHashSet<>();
 
-	public void setBirthDate(LocalDate birthDate) {
-		this.birthDate = birthDate;
-	}
 
-	public LocalDate getBirthDate() {
-		return this.birthDate;
-	}
 
 	public PetType getType() {
 		return this.type;

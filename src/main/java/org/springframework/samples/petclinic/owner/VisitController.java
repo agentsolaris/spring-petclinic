@@ -31,8 +31,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 /**
- * @author Juergen Hoeller
- * @author Ken Krebs
+ * @author Luca Mihai
+ * @author Barbulescu Eduard
  * @author Arjen Poutsma
  * @author Michael Isvy
  * @author Dave Syer

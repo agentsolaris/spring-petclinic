@@ -26,8 +26,8 @@ import javax.validation.Valid;
 import java.util.Collection;
 
 /**
- * @author Juergen Hoeller
- * @author Ken Krebs
+ * @author Luca Mihai
+ * @author Barbulescu Eduard
  * @author Arjen Poutsma
  */
 @Controller

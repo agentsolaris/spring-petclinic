@@ -30,7 +30,7 @@ import org.springframework.stereotype.Component;
  * https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html#format
  *
  * @author Mark Fisher
- * @author Juergen Hoeller
+ * @author Luca Mihai
  * @author Michael Isvy
  */
 @Component

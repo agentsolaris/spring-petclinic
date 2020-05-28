@@ -22,9 +22,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.Map;
 
 /**
- * @author Juergen Hoeller
+ * @author Luca Mihai
  * @author Mark Fisher
- * @author Ken Krebs
+ * @author Barbulescu Eduard
  * @author Arjen Poutsma
  */
 @Controller

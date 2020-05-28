@@ -59,10 +59,10 @@ import org.springframework.transaction.annotation.Transactional;
  * also inherited and can be used for explicit bean lookup if necessary.</li>
  * </ul>
  *
- * @author Ken Krebs
+ * @author Barbulescu Eduard
  * @author Rod Johnson
- * @author Juergen Hoeller
- * @author Sam Brannen
+ * @author Luca Mihai
+ * @author Neata Romeo
  * @author Michael Isvy
  * @author Dave Syer
  */
@@ -161,7 +161,6 @@ class ClinicServiceTests {
 		pet.setName("bowser");
 		Collection<PetType> types = this.pets.findPetTypes();
 		pet.setType(EntityUtils.getById(types, PetType.class, 2));
-		pet.setBirthDate(LocalDate.now());
 		owner6.addPet(pet);
 		assertThat(owner6.getPets().size()).isEqualTo(found + 1);
 

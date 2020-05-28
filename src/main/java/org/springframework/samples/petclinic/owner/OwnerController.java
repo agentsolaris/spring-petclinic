@@ -31,8 +31,8 @@ import java.util.Collection;
 import java.util.Map;
 
 /**
- * @author Juergen Hoeller
- * @author Ken Krebs
+ * @author Luca Mihai
+ * @author Barbulescu Eduard
  * @author Arjen Poutsma
  * @author Michael Isvy
  */

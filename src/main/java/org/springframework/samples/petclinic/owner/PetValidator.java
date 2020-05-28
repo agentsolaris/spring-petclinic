@@ -26,8 +26,8 @@ import org.springframework.validation.Validator;
  * validation rule in Java.
  * </p>
  *
- * @author Ken Krebs
- * @author Juergen Hoeller
+ * @author Barbulescu Eduard
+ * @author Luca Mihai
  */
 public class PetValidator implements Validator {
 
@@ -48,9 +48,7 @@ public class PetValidator implements Validator {
 		}
 
 		// birth date validation
-		if (pet.getBirthDate() == null) {
-			errors.rejectValue("birthDate", REQUIRED, REQUIRED);
-		}
+
 	}
 
 	/**

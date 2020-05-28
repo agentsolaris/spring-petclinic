@@ -2,7 +2,7 @@
 ===        Spring PetClinic sample application - MySQL Configuration         ===
 ================================================================================
 
-@author Sam Brannen
+@author Neata Romeo
 @author Costin Leau
 @author Dave Syer
 

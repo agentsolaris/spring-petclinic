@@ -22,7 +22,7 @@ import javax.validation.constraints.NotEmpty;
 /**
  * Simple JavaBean domain object representing an person.
  *
- * @author Ken Krebs
+ * @author Barbulescu Eduard
  */
 @MappedSuperclass
 public class Person extends BaseEntity {

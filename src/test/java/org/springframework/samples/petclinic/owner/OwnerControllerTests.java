@@ -79,7 +79,6 @@ class OwnerControllerTests {
 		max.setId(1);
 		max.setType(dog);
 		max.setName("Max");
-		max.setBirthDate(LocalDate.now());
 		george.setPetsInternal(Collections.singleton(max));
 		given(this.owners.findById(TEST_OWNER_ID)).willReturn(george);
 		Visit visit = new Visit();

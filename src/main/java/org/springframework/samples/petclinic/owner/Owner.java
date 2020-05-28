@@ -37,9 +37,9 @@ import org.springframework.samples.petclinic.model.Person;
 /**
  * Simple JavaBean domain object representing an owner.
  *
- * @author Ken Krebs
- * @author Juergen Hoeller
- * @author Sam Brannen
+ * @author Barbulescu Eduard
+ * @author Luca Mihai
+ * @author Neata Romeo
  * @author Michael Isvy
  */
 @Entity
